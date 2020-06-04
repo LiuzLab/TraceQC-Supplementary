@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  3 JUN 2020 20:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  4 JUN 2020 13:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -640,37 +640,40 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \TeXr@lab=\toks34
 )
 \cslhangindent=\skip61
-(./Supplementary-Material.aux)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count140
+) (./Supplementary-Material.aux)
 \openout1 = `Supplementary-Material.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 129.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 137.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 137.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 129.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 137.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \microtypecontext on input line 129.
+LaTeX Info: Redefining \microtypecontext on input line 137.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
@@ -685,16 +688,16 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 ) (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count140
+\scratchcounter=\count141
 \scratchdimen=\dimen165
 \scratchbox=\box47
-\nofMPsegments=\count141
-\nofMParguments=\count142
+\nofMPsegments=\count142
+\nofMParguments=\count143
 \everyMPshowfont=\toks35
-\MPscratchCnt=\count143
+\MPscratchCnt=\count144
 \MPscratchDim=\dimen166
-\MPnumerator=\count144
-\makeMPintoPDFobject=\count145
+\MPnumerator=\count145
+\makeMPintoPDFobject=\count146
 \everyMPtoPDFconversion=\toks36
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -712,17 +715,17 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box48
-Package hyperref Info: Link coloring OFF on input line 129.
+Package hyperref Info: Link coloring OFF on input line 137.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count146
+\c@section@level=\count147
 )
-LaTeX Info: Redefining \ref on input line 129.
-LaTeX Info: Redefining \pageref on input line 129.
-LaTeX Info: Redefining \nameref on input line 129.
+LaTeX Info: Redefining \ref on input line 137.
+LaTeX Info: Redefining \pageref on input line 137.
+LaTeX Info: Redefining \nameref on input line 137.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -757,39 +760,39 @@ LaTeX Info: Redefining \nameref on input line 129.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 131.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 139.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 131.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 139.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 131
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 139
 .
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 131
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 139
 .
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 131.
+(Font)              <12> on input line 139.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 131.
+(Font)              <8> on input line 139.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 131.
-LaTeX Font Info:    Try loading font information for U+msa on input line 131.
+(Font)              <6> on input line 139.
+LaTeX Font Info:    Try loading font information for U+msa on input line 139.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 131.
+LaTeX Font Info:    Try loading font information for U+msb on input line 139.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -808,144 +811,146 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<img/workflow.png, id=39, 380.42125pt x 327.2225pt>
+<img/workflow.png, id=65, 380.42125pt x 327.2225pt>
 File: img/workflow.png Graphic file (type png)
 <use img/workflow.png>
-Package pdftex.def Info: img/workflow.png  used on input line 144.
+Package pdftex.def Info: img/workflow.png  used on input line 152.
 (pdftex.def)             Requested size: 380.4203pt x 327.2217pt.
 [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.150 \newpage
+l.158 \newpage
                <./img/workflow.png>]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 162.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 170.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 207.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 219.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 208.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 220.
 
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 224.
+[3]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 239.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 269.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [3]
-Underfull \hbox (badness 10000) in paragraph at lines 250--252
-
- []
-
-[4]
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 288.
-LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 343
-.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ts1lmtt.fd
-File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [5]
-<Supplementary-Material_files/figure-latex/construct-1.pdf, id=79, 559.08875pt 
+)
+<Supplementary-Material_files/figure-latex/construct-1.pdf, id=90, 559.08875pt 
 x 96.36pt>
 File: Supplementary-Material_files/figure-latex/construct-1.pdf Graphic file (t
 ype pdf)
 <use Supplementary-Material_files/figure-latex/construct-1.pdf>
 Package pdftex.def Info: Supplementary-Material_files/figure-latex/construct-1.
-pdf  used on input line 415.
+pdf  used on input line 277.
 (pdftex.def)             Requested size: 469.76784pt x 80.96535pt.
-<Supplementary-Material_files/figure-latex/unnamed-chunk-8-1.pdf, id=80, 575.14
+<Supplementary-Material_files/figure-latex/unnamed-chunk-3-1.pdf, id=91, 575.14
 874pt x 316.18124pt>
-File: Supplementary-Material_files/figure-latex/unnamed-chunk-8-1.pdf Graphic f
+File: Supplementary-Material_files/figure-latex/unnamed-chunk-3-1.pdf Graphic f
 ile (type pdf)
-<use Supplementary-Material_files/figure-latex/unnamed-chunk-8-1.pdf>
+<use Supplementary-Material_files/figure-latex/unnamed-chunk-3-1.pdf>
 Package pdftex.def Info: Supplementary-Material_files/figure-latex/unnamed-chun
-k-8-1.pdf  used on input line 445.
+k-3-1.pdf  used on input line 307.
 (pdftex.def)             Requested size: 469.7645pt x 258.24748pt.
-[6 <./Supplementary-Material_files/figure-latex/construct-1.pdf>]
-<Supplementary-Material_files/figure-latex/align_score-1.pdf, id=102, 568.1225p
+[4 <./Supplementary-Material_files/figure-latex/construct-1.pdf>]
+<Supplementary-Material_files/figure-latex/align_score-1.pdf, id=111, 568.1225p
 t x 204.765pt>
 File: Supplementary-Material_files/figure-latex/align_score-1.pdf Graphic file 
 (type pdf)
 <use Supplementary-Material_files/figure-latex/align_score-1.pdf>
 Package pdftex.def Info: Supplementary-Material_files/figure-latex/align_score-
-1.pdf  used on input line 451.
+1.pdf  used on input line 313.
 (pdftex.def)             Requested size: 469.7731pt x 169.31749pt.
-<Supplementary-Material_files/figure-latex/inequality-1.pdf, id=103, 234.8775pt
+<Supplementary-Material_files/figure-latex/inequality-1.pdf, id=112, 234.8775pt
  x 207.77625pt>
 File: Supplementary-Material_files/figure-latex/inequality-1.pdf Graphic file (
 type pdf)
 <use Supplementary-Material_files/figure-latex/inequality-1.pdf>
 Package pdftex.def Info: Supplementary-Material_files/figure-latex/inequality-1
-.pdf  used on input line 457.
+.pdf  used on input line 319.
 (pdftex.def)             Requested size: 234.87692pt x 207.77573pt.
-[7 <./Supplementary-Material_files/figure-latex/unnamed-chunk-8-1.pdf> <./Suppl
+[5 <./Supplementary-Material_files/figure-latex/unnamed-chunk-3-1.pdf> <./Suppl
 ementary-Material_files/figure-latex/align_score-1.pdf>]
-Overfull \hbox (14.67073pt too wide) in paragraph at lines 463--488
+Overfull \hbox (14.67073pt too wide) in paragraph at lines 325--350
 [] 
  []
 
-<Supplementary-Material_files/figure-latex/mutation_barplot-1.pdf, id=130, 568.
+<Supplementary-Material_files/figure-latex/mutation_barplot-1.pdf, id=136, 568.
 1225pt x 207.77625pt>
 File: Supplementary-Material_files/figure-latex/mutation_barplot-1.pdf Graphic 
 file (type pdf)
 <use Supplementary-Material_files/figure-latex/mutation_barplot-1.pdf>
 Package pdftex.def Info: Supplementary-Material_files/figure-latex/mutation_bar
-plot-1.pdf  used on input line 493.
+plot-1.pdf  used on input line 355.
 (pdftex.def)             Requested size: 469.7731pt x 171.80746pt.
-<Supplementary-Material_files/figure-latex/mutation_summary-1.pdf, id=131, 172.
+<Supplementary-Material_files/figure-latex/mutation_summary-1.pdf, id=137, 172.
 645pt x 184.69pt>
 File: Supplementary-Material_files/figure-latex/mutation_summary-1.pdf Graphic 
 file (type pdf)
 <use Supplementary-Material_files/figure-latex/mutation_summary-1.pdf>
 Package pdftex.def Info: Supplementary-Material_files/figure-latex/mutation_sum
-mary-1.pdf  used on input line 499.
+mary-1.pdf  used on input line 361.
 (pdftex.def)             Requested size: 172.64456pt x 184.68953pt.
-[8 <./Supplementary-Material_files/figure-latex/inequality-1.pdf> <./Supplement
+[6 <./Supplementary-Material_files/figure-latex/inequality-1.pdf> <./Supplement
 ary-Material_files/figure-latex/mutation_barplot-1.pdf>]
-<img/mutation_hotspot.jpg, id=157, 2007.5pt x 702.625pt>
+<img/mutation_hotspot.jpg, id=160, 2007.5pt x 702.625pt>
 File: img/mutation_hotspot.jpg Graphic file (type jpg)
 <use img/mutation_hotspot.jpg>
-Package pdftex.def Info: img/mutation_hotspot.jpg  used on input line 504.
+Package pdftex.def Info: img/mutation_hotspot.jpg  used on input line 366.
 (pdftex.def)             Requested size: 469.74086pt x 164.40929pt.
-[9 <./Supplementary-Material_files/figure-latex/mutation_summary-1.pdf> <./img/
+[7 <./Supplementary-Material_files/figure-latex/mutation_summary-1.pdf> <./img/
 mutation_hotspot.jpg>]
-<Supplementary-Material_files/figure-latex/unnamed-chunk-11-1.pdf, id=173, 520.
+LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 438
+.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ts1lmtt.fd
+File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [8]
+<Supplementary-Material_files/figure-latex/unnamed-chunk-11-1.pdf, id=185, 520.
 94624pt x 311.1625pt>
 File: Supplementary-Material_files/figure-latex/unnamed-chunk-11-1.pdf Graphic 
 file (type pdf)
 <use Supplementary-Material_files/figure-latex/unnamed-chunk-11-1.pdf>
 Package pdftex.def Info: Supplementary-Material_files/figure-latex/unnamed-chun
-k-11-1.pdf  used on input line 560.
+k-11-1.pdf  used on input line 520.
 (pdftex.def)             Requested size: 469.76143pt x 280.58968pt.
-[10 <./Supplementary-Material_files/figure-latex/unnamed-chunk-11-1.pdf>] [11]
-<Supplementary-Material_files/figure-latex/unnamed-chunk-15-1.pdf, id=191, 566.
+[9] [10 <./Supplementary-Material_files/figure-latex/unnamed-chunk-11-1.pdf>] [
+11]
+<Supplementary-Material_files/figure-latex/unnamed-chunk-15-1.pdf, id=208, 566.
 115pt x 566.115pt>
 File: Supplementary-Material_files/figure-latex/unnamed-chunk-15-1.pdf Graphic 
 file (type pdf)
 <use Supplementary-Material_files/figure-latex/unnamed-chunk-15-1.pdf>
 Package pdftex.def Info: Supplementary-Material_files/figure-latex/unnamed-chun
-k-15-1.pdf  used on input line 623.
+k-15-1.pdf  used on input line 585.
 (pdftex.def)             Requested size: 469.76303pt x 469.76303pt.
 [12 <./Supplementary-Material_files/figure-latex/unnamed-chunk-15-1.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 714.
+Underfull \hbox (badness 10000) in paragraph at lines 626--628
+
+ []
+
 [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 714.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 734.
+[14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 734.
 (./Supplementary-Material.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 714.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 714.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 714.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 734.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 734.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 734.
  ) 
 Here is how much of TeX's memory you used:
- 14781 strings out of 492649
- 217826 string characters out of 6129622
- 334160 words of memory out of 5000000
- 18246 multiletter control sequences out of 15000+600000
+ 15108 strings out of 492649
+ 221594 string characters out of 6129622
+ 342361 words of memory out of 5000000
+ 18564 multiletter control sequences out of 15000+600000
  58809 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,7n,38p,655b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,7n,38p,916b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2018/
 texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2018/texmf-dist
@@ -962,10 +967,10 @@ fb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/l
 ocal/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texli
 ve/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2018/te
 xmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on Supplementary-Material.pdf (13 pages, 1556219 bytes).
+Output written on Supplementary-Material.pdf (14 pages, 1560184 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
- 80 named destinations out of 1000 (max. 500000)
- 12435 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 403 PDF objects out of 1000 (max. 8388607)
+ 343 compressed objects within 4 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 12539 words of extra memory for PDF output out of 14400 (max. 10000000)
 
