@@ -1,9 +1,17 @@
+# Supplementary Material of "TraceQC An R package for quality control of CRISPR lineage tracing data"
+
+Jingyuan Hu, Rami Al-Ouran, Xiang Zhang, Hyun-Hwan Jeong, and Zhandong Liu
+
 Supplementary Figures
 =====================
 
-![(A) Workflow of using TraceQC as a data analysis pipeline. (B) TraceQC
+<img src="img/workflow.png" style="float:auto"> 
+
+<p align="center">
+Figure 1. (A) Workflow of using TraceQC as a data analysis pipeline. (B) TraceQC
 identifies each mutation event by its type, starting position, length,
-and altered sequence.](img/workflow.png)
+and altered sequence.
+</p>
 
 Supplementary Methods
 =====================
