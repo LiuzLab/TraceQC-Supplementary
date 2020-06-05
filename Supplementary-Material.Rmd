@@ -1,7 +1,7 @@
 ---
 title: "Supplementary Material"
 subtitle: "TraceQC An R package for quality control of CRISPR lineage tracing data"
-author: "Jingyuan Hu, Rami Al-Ouran, Xiang Zhang, Hyun-Hwan Jeong, and Zhandong Liu"
+author: "Jingyuan Hu, Rami Al-Ouran, Xiang Zhang, Zhandong Liu, Hyun-Hwan Jeong"
 date: "6/3/2020"
 output:
   pdf_document:
@@ -44,14 +44,14 @@ knitr::opts_chunk$set(echo = TRUE,
 
 A FASTQ file and a reference file are required to use TraceQC. The reference is a text file which contains information as follows:
 ```
-ATGGACTATCATATGCTTACCGTAACTTGAAAGTATTTCGATTTCTTGGCTTTATATATCTTGTGGAAAGGACGAAACACCGGTAGACGCACCTCCACCCCACAGTGGGGTTAGAGCTAGAAATAGCAAGTTAACCTAAGGCTAGTCCGTTATCAACTTGAA
+ATGGACTATCATATGCTTACCG...CCGGTAGACGCACCTCCACCCCACAGTGGGGTTAGAGCTAGAAATA
 target 23 140
 ```
 
 The first line of the reference file represents a construct sequence. The second line indicates target region of the construct. In the lines, two numbers next to a region name specify the start and end locations of the region. Locations should be 0-based, i.e. the first location is indicated as 0. If users want to add additional regions like spacer region or PAM region, users can add more lines that contains the additional regions. The format of the regions is the same as the target region. Here is an example of the refenence file with additional regions:
 
 ```
-ATGGACTATCATATGCTTACCGTAACTTGAAAGTATTTCGATTTCTTGGCTTTATATATCTTGTGGAAAGGACGAAACACCGGTAGACGCACCTCCACCCCACAGTGGGGTTAGAGCTAGAAATAGCAAGTTAACCTAAGGCTAGTCCGTTATCAACTTGAA
+ATGGACTATCATATGCTTACCG...CCGGTAGACGCACCTCCACCCCACAGTGGGGTTAGAGCTAGAAATA
 target 23 140
 spacer 87 107
 PAM 107 110
@@ -194,7 +194,7 @@ mutation_type(cur_obj)
 
 When users want to use plot functions in TraceQC, it is required to create a TraceQC object for a given sample. This section shows how to create the object.
 
-First,the `TraceQC` package needs to be imported. The package is available at https://github.com/LiuzLab/TraceQC. If there is no FastQC report, it is recommended to import `fastqcr` package to create a FastQC report for the sample.
+First, the `TraceQC` package needs to be imported. The package is available at https://github.com/LiuzLab/TraceQC. If there is no FastQC report, it is recommended to import `fastqcr` package to create a FastQC report for the sample.
 
 ```{r eval=FALSE}
 library(TraceQC)
