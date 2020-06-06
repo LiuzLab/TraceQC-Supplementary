@@ -1,17 +1,9 @@
-# Supplementary Material of "TraceQC An R package for quality control of CRISPR lineage tracing data"
-
-Jingyuan Hu, Rami Al-Ouran, Xiang Zhang, Hyun-Hwan Jeong, and Zhandong Liu
-
 Supplementary Figures
 =====================
 
-<img src="img/workflow.png" style="float:auto"> 
-
-<p align="center">
-Figure 1. (A) Workflow of using TraceQC as a data analysis pipeline. (B) TraceQC
+![(A) Workflow of using TraceQC as a data analysis pipeline. (B) TraceQC
 identifies each mutation event by its type, starting position, length,
-and altered sequence.
-</p>
+and altered sequence.](img/workflow.png)
 
 Supplementary Methods
 =====================
@@ -22,16 +14,22 @@ Input files to TraceQC R package
 A FASTQ file and a reference file are required to use TraceQC. The
 reference is a text file which contains information as follows:
 
-    ATGGACTATCATATGCTTACCGTAACTTGAAAGTATTTCGATTTCTTGGCTTTAT...ACTTGAA
+    ATGGACTATCATATGCTTACCG...CCGGTAGACGCACCTCCACCCCACAGTGGGGTTAGAGCTAGAAATA
+    target 23 140
+
+The first line of the reference file is required should be the construct
+sequence. The second line is also required should be the target barcode
+region of the construct. In this lines, two numbers next to a region
+name specify the start and end locations of the region. Locations should
+be 0-based, i.e. the first location is indicated as 0. Users can
+optionally add additional regions such as spacer region or PAM region in
+the same format. Here is an example of the refenence file with
+additional regions:
+
+    ATGGACTATCATATGCTTACCG...CCGGTAGACGCACCTCCACCCCACAGTGGGGTTAGAGCTAGAAATA
     target 23 140
     spacer 87 107
     PAM 107 110
-
-The first line of the reference file represents a construct sequence.
-The following lines indicate the target, the spacer, and the PAM regions
-of the construct. The numbers next to each region name numbers specify
-the start and end locations of the region. Be aware that locations are
-noted as 0-based indices.
 
 Main steps in TraceQC
 ---------------------
@@ -98,7 +96,7 @@ below will be generated. In the example below, we used a sample from
 
 ### TraceQC report
 
-date: 2020-06-04
+date: 2020-06-05
 
 ### Input files to generate the report
 
@@ -107,31 +105,329 @@ date: 2020-06-04
 
 ### Construct structure
 
-<img src="README_files/figure-markdown_github/construct-1.png" style="display: block; margin: auto;" />
+<img src="Supplementary-Material_files/figure-markdown_github/construct-1.png" style="display: block; margin: auto;" />
 
 ### Basic Statistics of the sample file
 
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+Measure
+</th>
+<th style="text-align:left;">
+Value
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Filename
+</td>
+<td style="text-align:left;">
+example.fastq
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+File type
+</td>
+<td style="text-align:left;">
+Conventional base calls
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Encoding
+</td>
+<td style="text-align:left;">
+Sanger / Illumina 1.9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Total Sequences
+</td>
+<td style="text-align:left;">
+5000
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sequences flagged as poor quality
+</td>
+<td style="text-align:left;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sequence length
+</td>
+<td style="text-align:left;">
+162
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+%GC
+</td>
+<td style="text-align:left;">
+41
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Sequence quality control
 
-<img src="README_files/figure-markdown_github/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
+<img src="Supplementary-Material_files/figure-markdown_github/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
 
 ### Alignment score distribution
 
-<img src="README_files/figure-markdown_github/align_score-1.png" style="display: block; margin: auto;" />
+<img src="Supplementary-Material_files/figure-markdown_github/align_score-1.png" style="display: block; margin: auto;" />
 
 ### Barcode distribution inequality
 
-<img src="README_files/figure-markdown_github/inequality-1.png" style="display: block; margin: auto;" />
+<img src="Supplementary-Material_files/figure-markdown_github/inequality-1.png" style="display: block; margin: auto;" />
 
 ### Most frequent mutation patterns
 
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+target\_seq
+</th>
+<th style="text-align:left;">
+type
+</th>
+<th style="text-align:right;">
+start
+</th>
+<th style="text-align:right;">
+length
+</th>
+<th style="text-align:left;">
+mutate\_to
+</th>
+<th style="text-align:right;">
+count
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+…ACGAAACACCGGTAGACGCACCTCCACCCCA…
+</td>
+<td style="text-align:left;">
+insertion
+</td>
+<td style="text-align:right;">
+83
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+A
+</td>
+<td style="text-align:right;">
+1083
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+…ACGAAACACCGGTAGACGCACCTCCACCCCA…
+</td>
+<td style="text-align:left;">
+unmutated
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+
+-   </td>
+    <td style="text-align:right;">
+    549
+    </td>
+    </tr>
+    <tr>
+    <td style="text-align:left;">
+    …ACGAAACACCGGTAGACGCACCTCCACCCCA…
+    </td>
+    <td style="text-align:left;">
+    insertion
+    </td>
+    <td style="text-align:right;">
+    82
+    </td>
+    <td style="text-align:right;">
+    2
+    </td>
+    <td style="text-align:left;">
+    AA
+    </td>
+    <td style="text-align:right;">
+    123
+    </td>
+    </tr>
+    <tr>
+    <td style="text-align:left;">
+    …ACGAAACACCGGTAGACGCACCTCCACCCCA…
+    </td>
+    <td style="text-align:left;">
+    deletion
+    </td>
+    <td style="text-align:right;">
+    81
+    </td>
+    <td style="text-align:right;">
+    14
+    </td>
+    <td style="text-align:left;">
+
+    -   </td>
+        <td style="text-align:right;">
+        31
+        </td>
+        </tr>
+        <tr>
+        <td style="text-align:left;">
+        …ACGAAACACCGGTAGACGCACCTCCACCC–…
+        </td>
+        <td style="text-align:left;">
+        deletion
+        </td>
+        <td style="text-align:right;">
+        79
+        </td>
+        <td style="text-align:right;">
+        16
+        </td>
+        <td style="text-align:left;">
+
+        -   </td>
+            <td style="text-align:right;">
+            28
+            </td>
+            </tr>
+            <tr>
+            <td style="text-align:left;">
+            …ACGAAACACCG——————–…
+            </td>
+            <td style="text-align:left;">
+            deletion
+            </td>
+            <td style="text-align:right;">
+            61
+            </td>
+            <td style="text-align:right;">
+            22
+            </td>
+            <td style="text-align:left;">
+
+            -   </td>
+                <td style="text-align:right;">
+                18
+                </td>
+                </tr>
+                <tr>
+                <td style="text-align:left;">
+                …ACGAAACACCGGTAGACGCACCTCCACC—…
+                </td>
+                <td style="text-align:left;">
+                deletion
+                </td>
+                <td style="text-align:right;">
+                78
+                </td>
+                <td style="text-align:right;">
+                17
+                </td>
+                <td style="text-align:left;">
+
+                -   </td>
+                    <td style="text-align:right;">
+                    16
+                    </td>
+                    </tr>
+                    <tr>
+                    <td style="text-align:left;">
+                    …ACGAAACACCGGTAGACGCAC———-…
+                    </td>
+                    <td style="text-align:left;">
+                    deletion
+                    </td>
+                    <td style="text-align:right;">
+                    71
+                    </td>
+                    <td style="text-align:right;">
+                    24
+                    </td>
+                    <td style="text-align:left;">
+
+                    -   </td>
+                        <td style="text-align:right;">
+                        15
+                        </td>
+                        </tr>
+                        <tr>
+                        <td style="text-align:left;">
+                        …ACGAAACACCGGTAGAC————–…
+                        </td>
+                        <td style="text-align:left;">
+                        deletion
+                        </td>
+                        <td style="text-align:right;">
+                        67
+                        </td>
+                        <td style="text-align:right;">
+                        18
+                        </td>
+                        <td style="text-align:left;">
+
+                        -   </td>
+                            <td style="text-align:right;">
+                            13
+                            </td>
+                            </tr>
+                            <tr>
+                            <td style="text-align:left;">
+                            …ACGAAACACCGGTAGACGCACC———…
+                            </td>
+                            <td style="text-align:left;">
+                            deletion
+                            </td>
+                            <td style="text-align:right;">
+                            72
+                            </td>
+                            <td style="text-align:right;">
+                            12
+                            </td>
+                            <td style="text-align:left;">
+
+                            -   </td>
+                                <td style="text-align:right;">
+                                13
+                                </td>
+                                </tr>
+                                </tbody>
+                                </table>
+
 ### Number of mutations per barcode
 
-<img src="README_files/figure-markdown_github/mutation_barplot-1.png" style="display: block; margin: auto;" />
+<img src="Supplementary-Material_files/figure-markdown_github/mutation_barplot-1.png" style="display: block; margin: auto;" />
 
 ### Summary of mutation events
 
-<img src="README_files/figure-markdown_github/mutation_summary-1.png" style="display: block; margin: auto;" />
+<img src="Supplementary-Material_files/figure-markdown_github/mutation_summary-1.png" style="display: block; margin: auto;" />
 
 ### Mutation hotspot plots
 
@@ -144,7 +440,7 @@ When users want to use plot functions in TraceQC, it is required to
 create a TraceQC object for a given sample. This section shows how to
 create the object.
 
-First,the `TraceQC` package needs to be imported. The package is
+First, the `TraceQC` package needs to be imported. The package is
 available at
 <a href="https://github.com/LiuzLab/TraceQC" class="uri">https://github.com/LiuzLab/TraceQC</a>.
 If there is no FastQC report, it is recommended to import `fastqcr`
@@ -252,7 +548,7 @@ ggtree(treePars) +
   geom_tiplab(size=2)
 ```
 
-<img src="README_files/figure-markdown_github/unnamed-chunk-11-1.png" style="display: block; margin: auto;" />
+<img src="Supplementary-Material_files/figure-markdown_github/unnamed-chunk-11-1.png" style="display: block; margin: auto;" />
 
 ### Handling time series data
 
@@ -302,7 +598,7 @@ plot_grid(
   plot_mutation_pattern_violinplot(obj_list), ncol=1)
 ```
 
-<img src="README_files/figure-markdown_github/unnamed-chunk-15-1.png" style="display: block; margin: auto;" />
+<img src="Supplementary-Material_files/figure-markdown_github/unnamed-chunk-15-1.png" style="display: block; margin: auto;" />
 
 Programming libraries
 ---------------------
