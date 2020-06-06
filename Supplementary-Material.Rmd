@@ -3,15 +3,15 @@ title: "Supplementary Material"
 author: "Jingyuan Hu, Rami Al-Ouran, Xiang Zhang, Zhandong Liu, Hyun-Hwan Jeong"
 date: "6/5/2020"
 output:
+  html_document:
+    df_print: paged
+    toc: yes
+    toc_depth: '3'
   md_document:
     variant: markdown_github
   pdf_document:
     toc: yes
     toc_depth: 3
-  html_document:
-    df_print: paged
-    toc: yes
-    toc_depth: '3'
 header-includes: \usepackage{float} \floatplacement{figure}{H} \newcommand{\beginsupplement}{\setcounter{table}{0}  \renewcommand{\thetable}{S\arabic{table}}
   \setcounter{figure}{0} \renewcommand{\thefigure}{S\arabic{figure}}}
 params:
