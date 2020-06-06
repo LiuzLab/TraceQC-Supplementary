@@ -105,7 +105,7 @@ date: 2020-06-05
 
 ### Construct structure
 
-<img src="Supplementary-Material_files/figure-markdown_github/construct-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-markdown_github/construct-1.png" style="display: block; margin: auto;" />
 
 ### Basic Statistics of the sample file
 
@@ -182,15 +182,15 @@ Sequence length
 
 ### Sequence quality control
 
-<img src="Supplementary-Material_files/figure-markdown_github/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-markdown_github/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
 
 ### Alignment score distribution
 
-<img src="Supplementary-Material_files/figure-markdown_github/align_score-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-markdown_github/align_score-1.png" style="display: block; margin: auto;" />
 
 ### Barcode distribution inequality
 
-<img src="Supplementary-Material_files/figure-markdown_github/inequality-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-markdown_github/inequality-1.png" style="display: block; margin: auto;" />
 
 ### Most frequent mutation patterns
 
@@ -423,11 +423,11 @@ unmutated
 
 ### Number of mutations per barcode
 
-<img src="Supplementary-Material_files/figure-markdown_github/mutation_barplot-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-markdown_github/mutation_barplot-1.png" style="display: block; margin: auto;" />
 
 ### Summary of mutation events
 
-<img src="Supplementary-Material_files/figure-markdown_github/mutation_summary-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-markdown_github/mutation_summary-1.png" style="display: block; margin: auto;" />
 
 ### Mutation hotspot plots
 
@@ -548,7 +548,7 @@ ggtree(treePars) +
   geom_tiplab(size=2)
 ```
 
-<img src="Supplementary-Material_files/figure-markdown_github/unnamed-chunk-11-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-markdown_github/unnamed-chunk-11-1.png" style="display: block; margin: auto;" />
 
 ### Handling time series data
 
@@ -598,7 +598,7 @@ plot_grid(
   plot_mutation_pattern_violinplot(obj_list), ncol=1)
 ```
 
-<img src="Supplementary-Material_files/figure-markdown_github/unnamed-chunk-15-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-markdown_github/unnamed-chunk-15-1.png" style="display: block; margin: auto;" />
 
 Programming libraries
 ---------------------
